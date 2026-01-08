@@ -84,6 +84,98 @@ h2 {
     text-align: center;
 }
 
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: linear-gradient(to right, #4A90E2, #50C0E9);
+    color: white;
+}
+/* Header & CTA Button */
+.header {
+    background: linear-gradient(135deg, #4A90E2, #50C0E9);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo-placeholder {
+    background-color: white;
+    color: #4A90E2;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.header h1 {
+    margin: 0.5rem 0;
+    font-size: 3rem; /* bigger like flyer */
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    background-color: #ff7a59;
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff5a30;
+}
+
+/* Services Cards */
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-left: 5px solid #4A90E2; /* flyer-style accent */
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+    max-width: 220px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e8f4fc;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     text-align: center;
